@@ -154,6 +154,9 @@ header i:hover{
     line-height: 40px;
     margin-bottom: 20px;
 }
+.landing .text p{
+    color: white;
+}
 .bullets{
     color: white;
     position: relative;
@@ -514,12 +517,12 @@ visibility: visible;
 @media (max-width: 992px) {
     .protofolio .imgs-container{
         grid-template-columns: repeat(auto-fill,minmax(50%,1fr) )!important;
-        height: 150vh !important;
+        height: 113vh !important;
     }
 }
 @media (max-width: 768px) {
     .protofolio .imgs-container{
         grid-template-columns: repeat(auto-fill,minmax(100%,1fr)) !important;
-        height: 350vh !important;
+        height: 264vh !important;
     }
 }
