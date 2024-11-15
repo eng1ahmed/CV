@@ -549,10 +549,16 @@ header nav .form i:hover {
     position: relative;
     overflow: hidden;
 }
-
+.protofolio .shuffle img{
+width: 100%;
+}
 @media (min-width: 767px) {
     .protofolio .imgs-container .box {
         flex-basis: 50%;
+    }
+    .protofolio .shuffle img{
+        min-width: 100%;
+        object-fit: cover;
     }
 }
 
