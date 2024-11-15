@@ -540,7 +540,8 @@ header nav .form i:hover {
 }
 
 .protofolio .imgs-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(25%,1fr));
     flex-wrap: wrap;
     margin-top: 60px;
 }
@@ -556,6 +557,12 @@ width: 100%;
     .protofolio .imgs-container .box {
         flex-basis: 50%;
     }
+    .protofolio .imgs-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(100%,1fr));
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
     .protofolio .shuffle img{
         min-width: 100%;
         object-fit: cover;
@@ -566,11 +573,21 @@ width: 100%;
     .protofolio .imgs-container .box {
         flex-basis: 25%;
     }
+    .protofolio .imgs-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(25%,1fr));
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
     
 }
 @media (max-width: 996px) {
-    .shuffle img{
-        width: 50%;
+
+    .protofolio .imgs-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(50%,1fr));
+        flex-wrap: wrap;
+        margin-top: 60px;
     }
     
 }
